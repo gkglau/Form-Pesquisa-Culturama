@@ -127,7 +127,23 @@
                 <label for="colorPreference">Cor Preferida:</label>
                 <input type="color" id="colorPreference" name="userColorPreference">
             </fieldset>
-                
+            <fieldset>
+                <legend>Opinião</legend>
+                <p>Satifação</p>
+                <input type="radio" id="opinionGreat" name="userOpinion">
+                <label for="opinionGreat" name="great">Ótimo</label>
+                <input type="radio" id="opinionGood" name="userOpinion">
+                <label for="opinionGood" name="good">Bom</label>
+                <input type="radio" id="opinionRegular" name="userOpinion">
+                <label for="opinionRegular" name="regular">Regular</label>
+                <input type="radio" id="opinionBad" name="userOpinion">
+                <label for="opinionBad" name="bad">Ruim</label>
+                <br>
+                <label for="suggestions">Escreva sua opinião:</label>
+                <br>
+                <textarea id="suggestions" name="userSuggestions" rows="6" cols="40" placeholder="Deixe aqui suas opiniões...">
+                </textarea>
+            </fieldset>
             <br>
             <button type="submit">Enviar</button>
         </form>
