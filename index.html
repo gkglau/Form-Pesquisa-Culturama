@@ -118,6 +118,32 @@
                 <label for="colorPreference">Cor Preferida:</label>
                 <input type="color" id="colorPreference" name="userColorPreference">
             </fieldset>
+            <fieldset>
+                <legend>Opinião</legend>
+                <p>Satifação</p>
+                <input type="radio" id="opinionGreat" name="userOpinion">
+                <label for="opinionGreat" name="great">Ótimo</label>
+                <input type="radio" id="opinionGood" name="userOpinion">
+                <label for="opinionGood" name="good">Bom</label>
+                <input type="radio" id="opinionRegular" name="userOpinion">
+                <label for="opinionRegular" name="regular">Regular</label>
+                <input type="radio" id="opinionBad" name="userOpinion">
+                <label for="opinionBad" name="bad">Ruim</label>
+                <br>
+                <label for="suggestions">Escreva sua opinião:</label>
+                <br>
+                <textarea id="suggestions" name="userSuggestions" rows="6" cols="40" placeholder="Deixe aqui suas opiniões...">
+                </textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Confirmações</legend>
+                <input type="checkbox" id="terms" name="userTerms" value="accepted" required>
+                <label for="terms">Eu aceito participar da pesquisa.</label>
+                </br>
+                <input type="checkbox" id="result" name="userResult" value="accepted">
+                <label for="result">Quero receber o resultado por e-mail.</label>
+            </fieldset>
+            <br>
             <button type="submit">Enviar</button>
             <button type="reset">Limpar</button>
         </form>
