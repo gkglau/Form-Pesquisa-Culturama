@@ -11,9 +11,10 @@
     <title>Pesquisa Culturama</title>
 </head>
 <body>
+    <main>
     <header>
         <img src="/Assets/logo-culturama.png" alt="Logo Culturama">
-        <h1>Pesquisa Online</h1>
+        <h1>Pesquisa de opinião</h1>
     </header>
     <section>
         <form action="" method="get">
@@ -21,23 +22,17 @@
                 <legend>Dados Pessoais</legend>
                 <label for="name">Nome</label> 
                 <input type="text" id="name" name="userName" required>
-                <br>
                 <label for="userAge">Idade</label>
                 <input type="number" id="userAge" name="age" min="12" max="100" required>
-                <br>
                 <label for="birthdate">Data de Nascimento</label>
                 <input type="date" id="birthdate" name="userBirthdate">
-                <br>
                 <label for="userEmail">E-mail</label>
                 <input type="email" id="userEmail" name="email" required>
-                <br>
                 <label for="userPhone">Telefone</label>
                 <input type="tel" id="userPhone" name="phone" pattern="[0-9]{11}" placeholder="DDD + Número sem espaço ou hífen">
-                <br>
                 <label for="userImage">Upload de foto</label>
                 <input type="file" accept="image/*" id="userImage" name="image">
             </fieldset>
-            <br>
             <fieldset>
                 <legend>Perfil</legend>
                 <p>Gênero:</p>
@@ -57,7 +52,6 @@
                     <option value="widowed">Viúvo(a)</option>
                     <option value="other">Outro</option>
                 </select>
-            </br>
                 <label for="userState">Estado:</label>
                 <select id="userState" name="states" required>
                     <option value="acre">Acre</option>
@@ -89,7 +83,6 @@
                     <option value="tocantins">Tocantins</option>
                 </select>
                 </select>
-                <br>
                 <label for="city">Cidade</label>
                 <input id="city" type="text" name="userCity">
             </fieldset>
@@ -98,22 +91,16 @@
                 <p>Redes Sociais</p>
                 <input type="checkbox" id="socialInstagram" name="social" value="instagram">
                 <label for="socialInstagram">Instagram</label>
-                <br>
                 <input type="checkbox" id="socialFacebook" value="facebook" name="social">
                 <label for="socialFacebook">Facebook</label>
-                <br>
                 <input type="checkbox" id="socialTwitter" value="twitter" name="social">
                 <label for="socialTwitter">Twitter</label>
-                <br>
                 <input type="checkbox" id="socialTiktok" value="tiktok" name="social">
                 <label for="socialTiktok">TikTok</label>
-                <br>
                 <input type="checkbox" id="socialLinkedin" value="linkedin" name="social">
                 <label for="socialLinkedin">LinkedIn</label>
-                <br>
                 <input type="checkbox" id="socialYoutube" value="youtube" name="social">
                 <label for="socialYoutube">YouTube</label>
-                <br>
                 <label for="musicStyle">Estilo musical:</label>
                 <input list="styleTypes" id="musicStyle" name="userMusicStyle" type="text">
                 <datalist id="styleTypes">
@@ -128,7 +115,6 @@
                     <option value="Blues">
                     <option value="Gospel">
                 </datalist>
-                <br>
                 <label for="colorPreference">Cor Preferida:</label>
                 <input type="color" id="colorPreference" name="userColorPreference">
             </fieldset>
@@ -162,5 +148,6 @@
             <button type="reset">Limpar</button>
         </form>
     </section>
+    </main>
 </body>
 </html>

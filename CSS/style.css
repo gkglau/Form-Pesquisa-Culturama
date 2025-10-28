@@ -1,6 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Work Sans', sans-serif;
+    background-color: #f9f9f9;
+}
+main {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+}
+img {
+    width: 100px;
 }
 h1 {
     font-family: 'Fjalla One', sans-serif;
+}
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 88px;
+}
+fieldset {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 4px;
+    margin-bottom: 16px;
+}
+p {
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+label {
+    display: inline-block;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+textarea {
+    min-height: 100px;
+}
+input[type=checkbox]{
+    width: auto;
+}
+input[type=radio] {
+    width: auto;
+}
+input[type=color]{
+    width: 40px;
+    padding: 0 4px;
+}
+input:invalid, select:invalid, textarea:invalid {
+    border-color: red;
+}
+input:valid, select:valid, textarea:valid {
+    border-color: green;
+}
+button {
+        width: 160px;
+        font-size: 16px;
+        height: 32px;
+        margin: 40px 8px;
+        background-color:#ffffff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        justify-content: center;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        float: right;
+}
+button:hover {
+    background-color: black;
+    color: white;
 }
