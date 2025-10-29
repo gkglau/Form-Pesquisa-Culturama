@@ -49,6 +49,14 @@ label {
     font-weight: 600;
     padding: 16px 0 0 0;
 }
+input[type=tel],
+input[type=file]{
+    margin-bottom: 0;
+}
+small {
+    margin-bottom: 16px;
+    display: inline-block;
+}
 input, select, textarea {
     width: 100%;
     padding: 8px;
